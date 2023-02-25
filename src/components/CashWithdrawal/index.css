@@ -1,0 +1,68 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+.card {
+  width: 70%;
+  background-color: #150b3e;
+  height: 80%;
+  padding: 40px;
+  border-radius: 15px;
+}
+.name-tab {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.name-tab p {
+  padding: 20px;
+  border-radius: 50%;
+  background-color: #c7d2fe;
+  text-align: center;
+  margin-right: 15px;
+  font-weight: Bold;
+  color: #382f5a;
+}
+.amount-tab {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.amount-tab p {
+  margin-top: 0px;
+  font-size: 20px;
+}
+.amount-tab .total {
+  font-size: 30px;
+  color: #d4d2db;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+}
+.total p {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.withdraw {
+  font-size: 26px;
+  color: #d4d2db;
+  font-weight: 600;
+}
+.denomination-tab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+p {
+  color: #382f5a;
+}
+h1 {
+  color: #d4d2db;
+}
